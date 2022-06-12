@@ -1,6 +1,6 @@
 #+title: Hello World
 #+author: Jom Dollesin
-#+setupfile: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+setupfile: https://codewithjom.github.io/org-html-themes/org/theme-readtheorg.setup
 
 * Hello World
 
