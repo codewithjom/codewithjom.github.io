@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&display=swap");
+
+:root {
+  --switch: #68459f;
+  --bar: #262628;
+  --fg: #f3ede9;
+  --bg: #202023;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+body {
+  margin: 0;
+  margin-left: 285px;
+  margin-right: 285px;
+  padding: 0;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: var(--bar);
+  padding: 10px;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: flex-end;
+  margin: 0 -16px;
+}
+
+.menu a {
+  color: var(--fg);
+  margin: 0 16px;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+.menu a.is-active {
+  background-color: var(--switch);
+}
+.menu a:hover {
+  background-color: #946fd0;
+  transition: 0.3s;
+}
+
+.cwj {
+  color: var(--fg);
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.cwj:hover {
+  letter-spacing: 3px;
+  transition: 1s;
+}
+
+h1 {
+  color: var(--fg);
+  font-size: 26px;
+}
