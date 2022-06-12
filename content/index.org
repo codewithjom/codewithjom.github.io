@@ -1,6 +1,5 @@
 #+title: Hello World
 #+author: Jom Dollesin
-#+setupfile: ~/Repo/codewithjom.github.io/org-html-themes/org/theme-readtheorg-local.setup
 
 * Hello World
 
